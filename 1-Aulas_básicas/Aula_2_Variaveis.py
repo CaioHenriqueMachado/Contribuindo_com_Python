@@ -16,6 +16,12 @@ Nome das variáveis:
 - Não podem ser palavras reservadas
 """
 
+# Exibindo texto
+
+print("Olá mundo!!")
+# retun: Olá mundo!!
+
+
 #Variavel com nome "teste" guardando um texto "Olá mundo!!"
 
 teste = "Olá mundo!!"
@@ -24,18 +30,7 @@ teste = "Olá mundo!!"
 #Exibindo na tela o que tem na variavel:
 
 print(teste)
-
-'''------------EXIBE TEXTO ABAIXO:
-Olá mundo!!
-'''
-
-#Exibindo sem a variavel:
-
-print("Olá mundo!!")
-
-'''------------EXIBE TEXTO ABAIXO:
-Olá mundo!!
-'''
+# retun: Olá mundo!!
 
 
 """
