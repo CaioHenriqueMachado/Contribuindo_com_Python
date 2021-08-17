@@ -44,35 +44,49 @@ determinar dependo do valor.
 Para a gente entender mais, vamos usar a função "type()"
 para descobrir qual o das varia
 """
-print("\n Tipos de variaveis: \n")
+
+# Tipos de variaveis:
+
+# String:
+
+teste = "Bem vindo"
+assert teste == "Bem vindo"
+
+tipo = str(type(teste))
+assert tipo == "<class 'str'>"
 
 
-print("\nString:")
-teste1 = "oi"
-print(teste1)
-print("\nComo a função irá mostrar:")
-print(type(teste1))
+# Inteiro:
 
-print("\nInteiro:")
-teste1 = 4
-print(teste1)
-print("\nComo a função irá mostrar:")
-print(type(teste1))
+teste = 4
+assert teste == 4
 
-print("\nFlutuante:")
-teste1 = 4.1
-print(teste1)
-print("\nComo a função irá mostrar:")
-print(type(teste1))
+tipo = str(type(teste))
+assert tipo == "<class 'int'>"
 
-print("\nLista:")
-teste1 = [1,2]
-print(teste1)
-print("\nComo a função irá mostrar:")
-print(type(teste1))
 
-print("\nDicionario:")
-teste1 = {1:"oi"}
-print(teste1)
-print("\nComo a função irá mostrar:")
-print(type(teste1))
+
+# Flutuante:
+
+teste = 4.1
+assert teste == 4.1
+
+tipo = str(type(teste))
+assert tipo == "<class 'float'>"
+
+
+# Lista:
+
+teste = [1,2]
+assert teste == [1,2]
+
+tipo = str(type(teste))
+assert tipo == "<class 'list'>"
+
+
+# Dicionario:
+teste = {1:"oi"}
+assert teste == {1:"oi"}
+
+tipo = str(type(teste))
+assert tipo == "<class 'dict'>"

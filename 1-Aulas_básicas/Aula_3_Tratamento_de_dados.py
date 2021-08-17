@@ -30,4 +30,8 @@ frase = "Seu nome é {0} com {1} anos de idade, signo de {2} !!"
 print(frase.format(NOME,IDADE,SIGNO))
 
 #EXEMPLO 5
+frase = "Seu nome é {name} com {age} anos de idade, signo de {sig} !!"
+print(frase.format(name=NOME,age=IDADE,sig=SIGNO))
+
+#EXEMPLO 6
 print(NOME, IDADE, SIGNO, sep = ", ", end = " !!")
