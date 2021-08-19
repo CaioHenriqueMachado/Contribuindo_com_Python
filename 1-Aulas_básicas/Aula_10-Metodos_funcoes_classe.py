@@ -116,6 +116,61 @@ assert(  televisao.volume == 5)
 
 
 # EXEMPLO 4:
+    
+class Pessoa1: # Classe vazia
+    pass                     
+
+# Instanciando, adicionando atributos e valores. Os atributos ficaram somente na instancia "Caio"
+
+Caio = Pessoa1()
+Caio.nome = 'Caio'
+Caio.emprego = 'Desempregado'
+Caio.Idade = 20
+
+assert(Caio.__dict__ == {'nome': 'Caio', 'emprego': 'Desempregado', 'Idade': 20})
+
+
+# EXEMPLO 5:
+
+class Pessoa2:
+    def __init__(self,nome,cor,idade):
+        self.nome       = nome
+        self.cor        = cor
+        self.idade      = idade
+        self.__curtidas = 0     #  Metodo encapsulamento:  Não é possível ser acessada diretamente   
+
+    def ola(self):
+        return 'Ola meu nome é %s tenho %s e sou  %d'%(self.nome,self.cor,self.idade)
+
+    def curtir(self):
+        self.__curtidas+=1
+
+    def mostra_curtidas(self):
+        return self.__curtidas
+
+
+caio=Pessoa2('Caio','Pardo',20)
+
+#print (caio.__curtidas)
+#return: # AttributeError: 'Pessoa2' object has no attribute '__curtidas'
+
+assert(caio.idade == 20)
+
+assert(caio.__dict__ == {'nome': 'Caio', 'cor': 'Pardo', 'idade': 20, '_Pessoa2__curtidas': 0})
+
+assert(Pessoa2.ola(caio) == "Ola meu nome é Caio tenho Pardo e sou  20")
+
+assert(caio.ola() == "Ola meu nome é Caio tenho Pardo e sou  20")
+
+Pessoa2.curtir(caio)
+
+caio.curtir()
+assert(caio.mostra_curtidas() == 2)
+
+
+
+
+
 
 
 
