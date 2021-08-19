@@ -1,5 +1,5 @@
 class Pessoa:
-    pass                     #cÃ³digo para deixar em branco.
+    pass                     #código para deixar em branco.
 
 
 Caio = Pessoa()
@@ -18,7 +18,7 @@ class Pessoa1:
         self.idade=idade
 
     def ola(self):
-        print('Ola meu nome Ã© %s tenho %s e sou  %d'%(self.nome,self.cor,self.idade))
+        print('Ola meu nome é %s tenho %s e sou  %d'%(self.nome,self.cor,self.idade))
 
 
 caio=Pessoa1('Caio','Pardo',20)

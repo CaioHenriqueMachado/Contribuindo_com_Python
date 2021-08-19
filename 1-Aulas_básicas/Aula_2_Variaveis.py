@@ -16,25 +16,20 @@ Nome das variáveis:
 - Não podem ser palavras reservadas
 """
 
-# Exibindo texto
+# 1. Exibir texto 
 
-print("Olá mundo!!")
+# print("Olá mundo!!")
 # retun: Olá mundo!!
 
 
-#Variavel com nome "teste" guardando um texto "Olá mundo!!"
+# 2. Exibir texto em variável
 
 teste = "Olá mundo!!"
-
-
-#Exibindo na tela o que tem na variavel:
-
-print(teste)
+# print(teste)
 # retun: Olá mundo!!
 
 
 """
-
 Tipos de variáveis:
 
 Em python, não é necessário que informada seu tipo antes
@@ -76,7 +71,7 @@ assert tipo == "<class 'float'>"
 
 
 # Lista:
-
+    
 teste = [1,2]
 assert teste == [1,2]
 
@@ -84,9 +79,34 @@ tipo = str(type(teste))
 assert tipo == "<class 'list'>"
 
 
+# Tupla:
+# A diferença entre as tuplas e lista é que as tuplas são imutaveis, não podem ser alteradas.
+
+teste = (1, 2, 3, 4, 5)
+assert teste == (1, 2, 3, 4, 5)
+
+tipo = str(type(teste))
+assert tipo == "<class 'tuple'>"
+
+
+# Conjuntos:
+# Os conjuntos não aceitam valores iguais.
+
+teste = {1, 2, 3, 4, 4, 5}
+assert teste == {1, 2, 3, 4, 5}
+
+tipo = str(type(teste))
+assert tipo == "<class 'set'>"
+
+
 # Dicionario:
+# É composto por chaves e valores
+
 teste = {1:"oi"}
 assert teste == {1:"oi"}
 
 tipo = str(type(teste))
 assert tipo == "<class 'dict'>"
+
+
+
