@@ -105,6 +105,8 @@ assert tipo == "<class 'set'>"
 teste = {1:"oi"}
 assert teste == {1:"oi"}
 
+assert(teste[1] == 'oi')
+
 tipo = str(type(teste))
 assert tipo == "<class 'dict'>"
 

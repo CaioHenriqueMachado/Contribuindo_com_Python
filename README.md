@@ -8,3 +8,7 @@ Tudo que retorna valor
 **MÉTODO:**
  - Tudo que não retorna valor
  - Em python chamamos de definição (por isso inicia com **def**)
+
+
+ **MÓDULOS:**
+ - Cada arquivo em python é um módulo, e eles pode conversar entre eles. 

@@ -1,6 +1,5 @@
 ####REFAZER A  AULA TWD 350 CLASSES E OBJETIVOS
 
-
 class Televisão:
     def __int__(self):
         self.ligada= False
