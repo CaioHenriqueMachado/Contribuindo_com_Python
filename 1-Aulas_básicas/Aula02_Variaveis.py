@@ -102,6 +102,19 @@ assert tipo == "<class 'set'>"
 # Dicionario:
 # É composto por chaves e valores
 
+# CRIAR APENAS UM ARQUIVO 
+#https://www.alura.com.br/artigos/trabalhando-com-o-dicionario-no-python?gclid=CjwKCAjwgviIBhBkEiwA10D2j5i1hewT55M0nXEqVlKAMneweMd6ngkrjhB2giZThN4_4EcD96gKwRoCB8cQAvD_BwE
+
+
+# Exemplo 0:
+
+teste = dict(nome = 'Caio', Idade = 20, cor = 'Pardo')
+
+assert( teste == {'nome': 'Caio', 'Idade': 20, 'cor': 'Pardo'})
+
+
+# Exemplo 1:
+
 teste = {1:"oi"}
 assert teste == {1:"oi"}
 
@@ -110,5 +123,76 @@ assert(teste[1] == 'oi')
 tipo = str(type(teste))
 assert tipo == "<class 'dict'>"
 
+# Exemplo 2:
+
+teste = {}
+
+teste['a'] = 'alpha'
+teste['o'] = 'omega'
+teste['g'] = 'gama'
+
+assert (teste == {'a': 'alpha', 'o': 'omega', 'g': 'gama'})
+
+# print (teste.items())
+# return: dict_items([('a', 'alpha'), ('o', 'omega'), ('g', 'gama')])
+
+# print(teste.keys())
+# return: dict_keys(['a', 'o', 'g'])
+
+#print(teste.values())
+# return: dict_values(['alpha', 'omega', 'gama'])
+
+assert (teste['a'] == 'alpha')
+
+# Imprime todas as chaves:
+result = []
+for chave in teste: result.append(chave)
+
+assert(result[0] == 'a')
+assert(result[1] == 'o')
+assert(result[2] == 'g')
 
 
+# Imprime todos os valores nas chaves:
+result = []
+for chave in teste: result.append(teste[chave])
+
+assert(result[0] == 'alpha')
+assert(result[1] == 'omega')
+assert(result[2] == 'gama')
+
+# Exemplo 3:
+notas = { 9.12: 'Juan', 7.21:'Zack' }
+
+
+# caso 1:
+result = []
+for chave in notas.keys():
+    result.append('%s tem nota %4.2f' %(notas[chave],chave))
+
+assert(result[0] == 'Juan tem nota 9.12')
+assert(result[1] == 'Zack tem nota 7.21')
+
+# caso 2:
+result = []
+for nota, nome in notas.items():
+    result.append('%s tem nota %4.2f' %(nome,nota))
+
+assert(result[0] == 'Juan tem nota 9.12')
+assert(result[1] == 'Zack tem nota 7.21')
+
+# caso 3: 
+result = []
+for nota in sorted(notas):
+    result.append('%s tem nota %4.2f'%(notas[nota],nota))
+
+assert(result[0] == 'Zack tem nota 7.21')
+assert(result[1] == 'Juan tem nota 9.12')
+
+
+# caso 4:
+assert( sorted(notas) == [7.21, 9.12] )
+assert( sorted(notas, reverse = True) == [9.12, 7.21] )
+
+assert( sorted(notas.items()) == [(7.21, 'Zack'), (9.12, 'Juan')] )
+assert( sorted(notas.items(), reverse = True) == [(9.12, 'Juan'), (7.21, 'Zack')] )
