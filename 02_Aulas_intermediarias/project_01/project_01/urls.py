@@ -1,4 +1,4 @@
-"""first_project URL Configuration
+"""myfirstproject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
@@ -20,4 +20,6 @@ from core import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/<name>/<int:age>/', views.hello),
+    path('calculate/<operation>/<int:number1>/<int:number2>/', views.calculator),
+
 ]
