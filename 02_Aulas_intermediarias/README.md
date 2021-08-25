@@ -67,4 +67,3 @@ Para rodar migrate no banco de dados:
 'python manage.py migrate core 0001'
 
 
-PAREI NO 15:00
