@@ -8,11 +8,23 @@
     </a>
     <ul>
         {% for evento in eventos %}
-            <li>{{ evento.titulo }} - {{  evento.get_data_evento}}
-                ( <a href="evento/?id={{evento.id}}">Editar</a>
-                / <a href="evento/delete/{{ evento.id }}">Excluir</a> )
-
+            <li>
+                <div
+                        {% if evento.get_evento_atrasado %}
+                            style="color:red"
+                        {% endif %}
+                    >
+                        {{ evento.titulo }} - {{  evento.get_data_evento}}
+                        ( <a href="evento/?id={{evento.id}}">Editar</a>
+                        / <a href="evento/delete/{{ evento.id }}">Excluir</a> )
+                </div>
             </li>
         {% endfor %}
     </ul>
+
+<a href="/agenda/lista/1/">
+    <button>JSON</button>
+</a>
+<p>(obs: Apenas eventos a seguir são exibidos)</p>
+
 {% endblock %}
