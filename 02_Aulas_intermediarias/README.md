@@ -1,3 +1,5 @@
+Para esses projetos foi usado a framework Django
+
 Para ver a versão do python 3 instalada na sua máquina:
 (Provavelmente vão ter a versão 2 e 3, então digite python3 
 para verificar)
