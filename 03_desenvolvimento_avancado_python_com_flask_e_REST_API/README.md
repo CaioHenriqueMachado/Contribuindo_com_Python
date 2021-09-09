@@ -66,3 +66,21 @@ Ferramentas utilizadas:
 
 
 Flask: pip install Flask
+
+
+
+**GERAR TXT COM DEPENDENCIAS**
+
+Serve para a pessoa que ver o projeto saber quais são as dependências do projeto.
+
+`pip freeze > requirements.txt`
+
+
+**RESTful**
+
+`pip install flask-restful`
+
+
+**SQLAlchemy**
+
+`pip install sqlalchemy`
