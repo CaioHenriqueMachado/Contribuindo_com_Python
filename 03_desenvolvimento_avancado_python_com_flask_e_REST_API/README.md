@@ -84,3 +84,11 @@ Serve para a pessoa que ver o projeto saber quais são as dependências do proje
 **SQLAlchemy**
 
 `pip install sqlalchemy`
+
+
+
+**FlaskHttpauth**
+
+Para autenticação no Flask
+
+`pip install flask-httpauth`
