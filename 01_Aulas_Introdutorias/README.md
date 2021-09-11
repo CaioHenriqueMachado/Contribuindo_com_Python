@@ -1,8 +1,5 @@
-<h1 align="center"> DATA SCIENCE</h1>
-
-<h2 align="center" id="1">Conceitos Introdutórios</h2>
-
-<img src="./image/line.png" alt="line" width="100%">
+<h1 align="center" id="1">My notes about Python - Conceitos Introdutórios</h1>
+<img src="../image/line.png" alt="line" width="100%">
 <br>
 
 ## SUMÁRIO
@@ -24,7 +21,7 @@
  - [Instalação de pacotes](#0_15)
  - [Pacote requests](#0_16)
 
-<img src="./img/line.png" alt="line" width="100%">
+<img src="../img/line.png" alt="line" width="100%">
 <br>
 
 <h3 id="0_1">Comentarios</h3>
@@ -80,6 +77,16 @@ Todas as variáveis em Python.
 
 <h3 id="0_10">Métodos, Funções e Classes</h3>
 
+**FUNÇÃO:**
+Tudo que retorna valor
+
+**MÉTODO:**
+ - Tudo que não retorna valor
+ - Em python chamamos de definição (por isso inicia com **def**)
+
+ **MÓDULOS:**
+ - Cada arquivo em python é um módulo, e eles pode conversar entre eles.
+
 > Exemplos na prática: [Click here](./Aula10_Metodos_funcoes_classe.py)
 <br>
 
@@ -116,4 +123,4 @@ Todas as variáveis em Python.
 
 [Voltar ao topo](#1)
 
-[Voltar ao menu principal](../)
+[Voltar ao menu principal](https://github.com/CaioHenriqueMachado/Contribuindo_com_Python/#1)
