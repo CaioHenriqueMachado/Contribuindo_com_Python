@@ -10,7 +10,7 @@
 ## SUMÁRIO
 
  - [Conceitos Introdutórios](./01_Aulas_Introdutorias/#1)
- - [Conceitos Intermediarios](#./02_Aulas_intermediarias/#1)
+ - [Conceitos Intermediarios](./02_Aulas_intermediarias/#1)
  - [Conceitos Avançados](#0_3)
  - [Conceitos de segurança](#0_4)
 

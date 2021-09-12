@@ -1,5 +1,5 @@
 <h1 align="center" id="1">My notes about Python - Conceitos Introdutórios</h1>
-<img src="../image/line.png" alt="line" width="100%">
+<img src="../img/line.png" alt="line" width="100%">
 <br>
 
 ## SUMÁRIO
