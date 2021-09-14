@@ -2,7 +2,7 @@
 
 :pushpin: **Note:**
 
-> *Para entender os conceitos intermediários foi desenvolvido um projeto para aplicar todos os conceitos abordados. Nesse README estão apenas as informações iniciais para fazer um projeto usando o Django. Para ver o projeto finalizado [clique aqui](#0_9)*
+> *Para entender os conceitos intermediários foi desenvolvido um projeto para aplicar todos os conceitos abordados. Nesse README estão apenas as informações iniciais para fazer um projeto usando o Django. Para ver o projeto finalizado [clique aqui](#0_7)*
 
 <img src="../img/line.png" alt="line" width="100%">
 <br>
@@ -21,13 +21,13 @@
 <br>
 
 <h3 id="0_0">Introdução</h3>
-Como fazer comentarios em Python, seja na linha ou em bloco.
+<p align="justify"> O desafio desse projeto é desenvolver uma agenda onde o usuário consiga fazer o cadastro, edição e exclução de um evento. O usuário vai poder ver gerenciar apenas seus eventos cadastrados. O evento criado deve sumir após passar mais de 60 minutos da sua data estipulada. Os recursos de gerar seus eventos em JSON e um sistema de logout.</p>
 
 <br>
 
 <h3 id="0_1">Tools</h3>
 
-- Pycharm
+- Pycharm Community
 - Framework Django
 - Postman
 - Python 3
@@ -53,6 +53,7 @@ Para criar o ambiente virtual:
 Caso dê erro, então usar:
 
 > cmd: `python3 -m venv myfirstvenv --without-pip`
+
 > Aqui ele criou o ambiente virtual, porém como foi sem o pip, no passo seguinte deu erro ao tentar criar o projeto. 
 
 Solução: No meu caso a solução foi criar o ambiente virtual direto pelo Pycharm.
@@ -93,6 +94,7 @@ Com a venv ativa, escolha a pasta para criar um projeto:
 <h3 id="0_3">Instalando Pacotes</h3>
 
 **Django**
+
  `pip install django`
 
 
@@ -114,7 +116,7 @@ Email: admin@admin.com.br
 passwd: caio1234
 
 <br>
-<h3 id="0_4">Migrates</h3>
+<h3 id="0_5">Migrates</h3>
 
 <p align="justify">Após criar uma classe no model, rodar:</p>
 
@@ -131,13 +133,17 @@ passwd: caio1234
 > cmd: `python manage.py migrate core 0001`
 
 <br>
-<h3 id="0_4">Requirements</h3>
+<h3 id="0_6">Requirements</h3>
 
 <p align="justify">No arquivo requirements.txt terão todos os pacotes usados para o projeto e suas respectivas versões.</p>
 
 > cmd: `pip freeze > requirements.txt`
 
+<br>
+<h3 id="0_7">Projeto final</h3>
 
-[Voltar ao topo](#1)
+Para ver o projeto final [clique aqui](https://github.com/CaioHenriqueMachado/AgendaApp#agenda)
 
-[Voltar ao menu principal](https://github.com/CaioHenriqueMachado/Contribuindo_com_Python/#1)
+<br>
+ - [Voltar ao topo](#1)
+ - [Voltar ao menu principal](https://github.com/CaioHenriqueMachado/Contribuindo_com_Python/#1)

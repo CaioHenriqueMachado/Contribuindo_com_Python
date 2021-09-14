@@ -77,14 +77,14 @@ Todas as variáveis em Python.
 
 <h3 id="0_10">Métodos, Funções e Classes</h3>
 
-**FUNÇÃO:**
+**Função:**
 Tudo que retorna valor
 
-**MÉTODO:**
+**Método:**
  - Tudo que não retorna valor
  - Em python chamamos de definição (por isso inicia com **def**)
 
- **MÓDULOS:**
+ **Módulos:**
  - Cada arquivo em python é um módulo, e eles pode conversar entre eles.
 
 > Exemplos na prática: [Click here](./Aula10_Metodos_funcoes_classe.py)
