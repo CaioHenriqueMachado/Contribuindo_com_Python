@@ -110,9 +110,45 @@ Biblioteca capaz de criar, manupular endereços IP do tipo IPv4, IPv6 e até red
 
 > Exemplo: [Gerado de senhas](./05_gerador_senha.py)
 
+<br>
 
+<h3 id="0_5">Comparador de Hashs</h3>
+
+
+> Exemplo: [Comparador de Hashs](./06_comparador_hashs.py)
 
 <br>
+
+<h3 id="0_6">Threads</h3>
+
+
+> Exemplo: [Threads](./07_thread.py)
+
+<br>
+
+<h3 id="0_7">IPs</h3>
+
+
+> Exemplo: [IPs](./08_ip.py)
+
+<br>
+
+<h3 id="0_5">Gerador de Hashs</h3>
+
+
+> Exemplo: [Comparador de Hashs](./09_gerador_hashs.py)
+
+<br>
+
+<h3 id="0_5">Gerador de Wordlist</h3>
+
+Wordlist são arquivos contendo uma palavra por linha.
+
+> Exemplo: [Comparador de Hashs](./10_gerador_wordlists.py)
+
+<br>
+
+
 
  - [Voltar ao topo](#1)
  - [Voltar ao menu principal](https://github.com/CaioHenriqueMachado/Contribuindo_com_Python/#1)
