@@ -133,18 +133,72 @@ Biblioteca capaz de criar, manupular endereços IP do tipo IPv4, IPv6 e até red
 
 <br>
 
-<h3 id="0_5">Gerador de Hashs</h3>
+<h3 id="0_8">Gerador de Hashs</h3>
 
 
 > Exemplo: [Comparador de Hashs](./09_gerador_hashs.py)
 
 <br>
 
-<h3 id="0_5">Gerador de Wordlist</h3>
+<h3 id="0_9">Gerador de Wordlist</h3>
 
 Wordlist são arquivos contendo uma palavra por linha.
 
 > Exemplo: [Comparador de Hashs](./10_gerador_wordlists.py)
+
+<br>
+
+<h3 id="0_10">Web scraping</h3>
+
+Web scraping é uma ferramenta de coleta de dados web
+
+> Exemplo: [Comparador de Hashs](./11_web_scraping.py)
+
+<br>
+
+<h3 id="0_11">Web Crawler</h3>
+
+Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
+Usado para levantamento de informações
+
+> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
+
+<br>
+
+<h3 id="0_11">Verificador de Telefone</h3>
+
+Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
+Usado para levantamento de informações
+
+> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
+
+<br>
+
+<h3 id="0_11">Ocultador de arquivos</h3>
+
+Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
+Usado para levantamento de informações
+
+> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
+
+<br>
+
+<h3 id="0_11">Verificador de IP externo</h3>
+
+Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
+Usado para levantamento de informações
+
+> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
+
+<br>
+
+
+<h3 id="0_11">Ferramenta grafica para abrir o navegador</h3>
+
+Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
+Usado para levantamento de informações
+
+> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
 
 <br>
 
