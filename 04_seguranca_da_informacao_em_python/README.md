@@ -9,10 +9,15 @@
  - [Introdução](#0_0)
  - [Ping](#0_1)
  - [Biblioteca Socket, TCP, UDP](#0_2)
- - [Ferramentas](#0_3)
- - [Instalando Pacotes](#0_4)
- - [requirements](#0_5)
- - [Recursos da API](#0_6)
+ - [Hash](#0_3)
+ - [Multithreading](#0_4)
+ - [Endereço IP](#0_5)
+ - [Wordlist](#0_6)
+ - [Web scraping](#0_7)
+ - [Web Crawler](#0_8)
+ - [Verificador de Telefone](#0_9)
+ - [Ocultador de arquivos](#0_10)
+ - [Ferramenta grafica para abrir o navegador](#0_11)
 
 <img src="../img/line.png" alt="line" width="100%">
 <br>
@@ -61,7 +66,7 @@ Sintaxe: -c 8 site.com.br (8 pacotes serão enviados pelo comando).
 
 <h3 id="0_2">Biblioteca Socket</h3>
 
-**Biblioteca Socket:** Esta biblioteca fornece acesso de baixo nível à interface de rede.
+Esta biblioteca fornece acesso de baixo nível à interface de rede.
 
 
 **TCP** - (Transmission Control Protocol) ou Protocolo de Controle de Transmissão. Verifica se os dados são enviados na sequência correta e sem erros.
@@ -76,133 +81,88 @@ Aplicação do método three handshake
 > Exemplo: [Servidor UDP](./04_pt2_servidor_udp.py)
 
 
-<h3 id="0_3">Ferramentas</h3>
+<h3 id="0_3">Hash</h3>
 
-**Biblioteca random**
-
-Gera números letras, simbolos e letras aleatórios.
-
-<br>
-
-**Hash**
-
-É como se fosse um identificador único.
+Uma forma de criptografar ou descriptografar uma mensagem ou código. É como se fosse um identificador único.
 
 Site que gera hash e também descripta hash: https://md5decrypt.net/en/
 
 > Em Python existe a Biblioteca haslib que implementa hashs seguras como SHA1, SHA256, MD5
 
+> Exemplo 1: [Gerado de senhas](./05_gerador_senha.py)
+
+> Exemplo 2: [Comparador de Hashs](./09_gerador_hashs.py)
+
 <br>
 
-**Multithreading**
+<h3 id="0_4">Multithreading</h3>
 
 Threading é o processo, no ambiente Multithreading, cada processo pode responder diversar solicitações concorrente ou simultaneamente.
 
 > Em Python existe a Biblioteca threading
 
-**Biblioteca ipaddress**
-
-Biblioteca capaz de criar, manupular endereços IP do tipo IPv4, IPv6 e até redes inteiras.
-
-
-<h3 id="0_4">Gerador de senhas</h3>
-
-
-> Exemplo: [Gerado de senhas](./05_gerador_senha.py)
-
-<br>
-
-<h3 id="0_5">Comparador de Hashs</h3>
-
-
-> Exemplo: [Comparador de Hashs](./06_comparador_hashs.py)
-
-<br>
-
-<h3 id="0_6">Threads</h3>
-
-
 > Exemplo: [Threads](./07_thread.py)
 
 <br>
 
-<h3 id="0_7">IPs</h3>
+<h3 id="0_5">Endereço IP</h3>
 
+ipaddress = Biblioteca capaz de criar, manupular endereços IP do tipo IPv4, IPv6 e até redes inteiras.
 
-> Exemplo: [IPs](./08_ip.py)
+> Exemplo: [Gerenciamento de IP](./08_ip.py)
 
-<br>
-
-<h3 id="0_8">Gerador de Hashs</h3>
-
-
-> Exemplo: [Comparador de Hashs](./09_gerador_hashs.py)
+> Exemplo: [Verificador de IP externo](./15_verificador_ip_externo.py)
 
 <br>
 
-<h3 id="0_9">Gerador de Wordlist</h3>
+<h3 id="0_6">Wordlist</h3>
 
 Wordlist são arquivos contendo uma palavra por linha.
 
-> Exemplo: [Comparador de Hashs](./10_gerador_wordlists.py)
+> Exemplo: [Gerador de Wordlist](./10_gerador_wordlists.py)
 
 <br>
 
-<h3 id="0_10">Web scraping</h3>
+<h3 id="0_7">Web scraping</h3>
 
 Web scraping é uma ferramenta de coleta de dados web
 
-> Exemplo: [Comparador de Hashs](./11_web_scraping.py)
+> Exemplo: [Web scraping](./11_web_scraping.py)
 
 <br>
 
-<h3 id="0_11">Web Crawler</h3>
+<h3 id="0_8">Web Crawler</h3>
 
 Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
 Usado para levantamento de informações
 
-> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
+> Exemplo: [Web Crawler](./12_web_crawler.py)
 
 <br>
 
-<h3 id="0_11">Verificador de Telefone</h3>
+<h3 id="0_9">Verificador de Telefone</h3>
 
-Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
-Usado para levantamento de informações
+Feramenta capaz de ver qual país e estado é o numero digitado.
 
-> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
-
-<br>
-
-<h3 id="0_11">Ocultador de arquivos</h3>
-
-Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
-Usado para levantamento de informações
-
-> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
+> Exemplo: [Verificador de Telefone](./13_verificador_de_telefone.py)
 
 <br>
 
-<h3 id="0_11">Verificador de IP externo</h3>
+<h3 id="0_10">Ocultador de arquivos</h3>
 
-Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
-Usado para levantamento de informações
+Ferramenta para ocutar arquivos.
 
-> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
-
-<br>
-
-
-<h3 id="0_11">Ferramenta grafica para abrir o navegador</h3>
-
-Web Crawler é uma ferramenta para encontrar, ler e indexar paginas de um site.
-Usado para levantamento de informações
-
-> Exemplo: [Comparador de Hashs](./12_web_crawler.py)
+> Exemplo: [Ocultador de arquivos](./14_ocultador_arquivos.py)
 
 <br>
 
+<h3 id="0_11">Ferramenta grafica</h3>
 
+Ferramenta grafica para abrir o navegador.
+
+> Exemplo: [Ferramenta grafica](./16_ferramenta_grafica.py)
+
+<br>
 
  - [Voltar ao topo](#1)
  - [Voltar ao menu principal](https://github.com/CaioHenriqueMachado/Contribuindo_com_Python/#1)

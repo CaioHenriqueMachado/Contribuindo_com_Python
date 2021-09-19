@@ -1,3 +1,4 @@
+# Ferramenta para a manupulação de endereços, seja rede ou proprio IP
 
 import ipaddress
 

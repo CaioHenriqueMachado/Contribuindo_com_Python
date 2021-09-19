@@ -40,10 +40,15 @@ media = 6
 
 nota = 5
 
-teste = ( (nota >= media) and "APROVADO" or "REPROVADO")
-
 resposta = "REPROVADO"
 
+
+teste = ( (nota >= media) and "APROVADO" or "REPROVADO")
+assert(teste == resposta)
+# OU
+
+# Mais usual
+teste = "APROVADO" if (nota >= media) else "REPROVADO"
 assert(teste == resposta)
 
 print("Parabens, todas estão corretas !!")
