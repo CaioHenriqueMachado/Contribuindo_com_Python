@@ -58,19 +58,9 @@ Sintaxe: -c 8 site.com.br (8 pacotes serão enviados pelo comando).
 
 <h3 id="0_2">Testes unitários</h3>
 
-Esta biblioteca fornece acesso de baixo nível à interface de rede.
 
-
-**TCP** - (Transmission Control Protocol) ou Protocolo de Controle de Transmissão. Verifica se os dados são enviados na sequência correta e sem erros.
-
-> Exemplo: [Cliente TCP](./03_cliente_tcp.py)
-
-**UDP** - (User DatagramProtocol) ou Protocolo de Datagrama de usuário.
-
-Aplicação do método three handshake
-
-> Exemplo: [Cliente UDP](./04_pt1_cliente_udp.py)
-> Exemplo: [Servidor UDP](./04_pt2_servidor_udp.py)
+> Exemplo 1: [Troca de variaveis](./exemplo_01.py)
+> Exemplo 2: [Exemplo 2](./exemplo_02.py)
 
 <br>
  - [Voltar ao topo](#1)
