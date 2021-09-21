@@ -61,6 +61,10 @@ Sintaxe: -c 8 site.com.br (8 pacotes serão enviados pelo comando).
 
 > Exemplo 1: [Troca de variaveis](./exemplo_01.py)
 > Exemplo 2: [Exemplo 2](./exemplo_02.py)
+> Exemplo 1: [Exemplo 3](./exemplo_03.py)
+> Exemplo 2: [Exemplo 4](./exemplo_04.py)
+> Exemplo 1: [Exemplo 5](./exemplo_05.py)
+
 
 <br>
  - [Voltar ao topo](#1)
